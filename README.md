@@ -29,7 +29,7 @@ If you've installed StompTest, you can open "SUnit Test Runner" and see all-grea
   * Multi-byte stirng (WideString, WideSymbol in Squeak). 
   * Fixed point number (ScaledDecimal in Squeak).
   
-Other than that, StOMP binary data is compatible between other Smalltalk dialects.
+Other than that, StOMP binary data is compatible among other Smalltalk dialects.
 
 Enjoy!
 ___

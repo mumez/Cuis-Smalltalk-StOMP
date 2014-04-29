@@ -1,6 +1,7 @@
-'From Cuis 4.2 of 25 July 2013 [latest update: #1969] on 28 March 2014 at 8:47:59.272834 pm'!
+'From Cuis 4.2 of 25 July 2013 [latest update: #1969] on 29 April 2014 at 10:49:59.615729 pm'!
 'Description Please enter a description for this package'!
-!provides: 'Stomp-Cuis-Core' 1 10!
+!provides: 'Stomp-Cuis-Core' 1 12!
+!requires: 'Stomp-Core' 1 2 nil!
 !classDefinition: #StompCuisPopularClassMap category: #'Stomp-Cuis-Core'!
 StompPopularClassMap subclass: #StompCuisPopularClassMap
 	instanceVariableNames: ''

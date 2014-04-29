@@ -1,6 +1,7 @@
-'From Cuis 4.2 of 25 July 2013 [latest update: #1969] on 26 March 2014 at 6:23:35.59394 pm'!
+'From Cuis 4.2 of 25 July 2013 [latest update: #1969] on 29 April 2014 at 10:49:55.436824 pm'!
 'Description Please enter a description for this package'!
-!provides: 'StompTest-Cuis-Core' 1 3!
+!provides: 'StompTest-Cuis-Core' 1 5!
+!requires: 'Stomp-Cuis-Core' 1 12 nil!
 !classDefinition: #StompCuisFixtures category: #'StompTest-Cuis-Core'!
 StompPortableFixtures subclass: #StompCuisFixtures
 	instanceVariableNames: ''

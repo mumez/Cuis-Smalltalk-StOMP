@@ -1,6 +1,7 @@
-'From Cuis 4.2 of 25 July 2013 [latest update: #1969] on 26 March 2014 at 6:26:50.56494 pm'!
+'From Cuis 4.2 of 25 July 2013 [latest update: #1969] on 29 April 2014 at 10:49:57.452055 pm'!
 'Description Please enter a description for this package'!
-!provides: 'StompTest-Core' 1 2!
+!provides: 'StompTest-Core' 1 4!
+!requires: 'Stomp-Core' 1 2 nil!
 !classDefinition: #StompMockMementoArray category: #'StompTest-Core'!
 Array variableSubclass: #StompMockMementoArray
 	instanceVariableNames: ''

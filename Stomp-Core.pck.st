@@ -1,6 +1,7 @@
-'From Cuis 4.2 of 25 July 2013 [latest update: #1969] on 26 March 2014 at 4:29:12.90691 pm'!
+'From Cuis 4.2 of 25 July 2013 [latest update: #1969] on 29 April 2014 at 10:50:01.775279 pm'!
 'Description Please enter a description for this package'!
-!provides: 'Stomp-Core' 1 0!
+!provides: 'Stomp-Core' 1 2!
+!requires: 'MessagePack-Core' 1 1 nil!
 !classDefinition: #StompError category: #'Stomp-Core'!
 Error subclass: #StompError
 	instanceVariableNames: ''
